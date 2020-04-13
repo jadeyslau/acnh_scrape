@@ -40,4 +40,4 @@ Thumbs.db
 ######################
 *.csv
 topsecret.py
-
+*.pyc
