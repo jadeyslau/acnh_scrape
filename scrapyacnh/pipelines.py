@@ -52,5 +52,5 @@ class ScrapyacnhPipeline(object):
         if not self.check_last_scrape(spider): #if last scrape returned false then send message
             self.send_message_telegram(item, spider)
 
-        self.send_message_slack(now+' '+spider.name+' is running', '#test')
+        self.send_message_slack(now+' '+spider.name+' is running on '+topsecret.device, '#test')
         return item
