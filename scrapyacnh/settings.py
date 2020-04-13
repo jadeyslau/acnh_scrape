@@ -124,3 +124,5 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 HTTPERROR_ALLOWED_CODES =[404]
 RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 403, 404, 408]
+
+LOG_FILE = "tmp/logs/spiders.log"
