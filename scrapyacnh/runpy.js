@@ -6,6 +6,7 @@ async function startTracking() {
     let options = {
       mode: 'text',
       pythonPath: '/usr/local/bin/python3',
+      // pythonPath: '/Users/jade/Development/Virtualenvs/scrapy_env/bin/python3',
       pythonOptions: ['-u'], // get print results in real-time
       scriptPath: ''
     };
