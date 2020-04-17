@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-class NintendoBotSpider(scrapy.Spider):
-    name = 'nintendo_bot'
-    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html']
-    start_urls = ['http://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html/']
-
-    # TEST URLS FOR IN STOCK ITEMS
-    # allowed_domains = ['store.nintendo.co.uk/nintendo-switch-lite-console/nintendo-switch-lite-yellow/12258505.html']
-    # start_urls = ['https://store.nintendo.co.uk/nintendo-switch-lite-console/nintendo-switch-lite-yellow/12258505.html/']
+class NintendoBot2Spider(scrapy.Spider):
+    name = 'nintendo_bot3'
+    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-tote-bag-pack/12458091.html']
+    start_urls = ['https://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-tote-bag-pack/12458091.html/']
 
     custom_settings = {
         'FEED_URI' : 'tmp/'+name+'.csv'
