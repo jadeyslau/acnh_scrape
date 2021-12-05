@@ -3,8 +3,13 @@ import scrapy
 
 class JohnlewisBotSpider(scrapy.Spider):
     name = 'johnlewis_bot'
-    allowed_domains = ['www.johnlewis.com/nintendo-switch-1-1-console-with-animal-crossing-new-horizons-game-bundle/p4918594']
-    start_urls = ['http://www.johnlewis.com/nintendo-switch-1-1-console-with-animal-crossing-new-horizons-game-bundle/p4918594/']
+    #acnh
+    # allowed_domains = ['www.johnlewis.com/nintendo-switch-1-1-console-with-animal-crossing-new-horizons-game-bundle/p4918594']
+    # start_urls = ['http://www.johnlewis.com/nintendo-switch-1-1-console-with-animal-crossing-new-horizons-game-bundle/p4918594/']
+
+    #neon
+    allowed_domains = ['www.johnlewis.com/nintendo-switch-1-1-32gb-console-with-joy-con/neon/p4751133']
+    start_urls = ['http://www.johnlewis.com/nintendo-switch-1-1-32gb-console-with-joy-con/neon/p4751133/']
 
     # TEST URLS FOR IN STOCK ITEMS
     # allowed_domains = ['www.johnlewis.com/nintendo-poke-ball-plus-switch-controller-and-pokemon-container/p3850568']

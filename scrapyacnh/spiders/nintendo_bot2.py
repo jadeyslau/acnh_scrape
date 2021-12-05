@@ -3,8 +3,13 @@ import scrapy
 
 class NintendoBot2Spider(scrapy.Spider):
     name = 'nintendo_bot2'
-    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-pack/12458669.html']
-    start_urls = ['http://www.store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-pack/12458669.html/']
+    # acnh
+    # allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-pack/12458669.html']
+    # start_urls = ['http://www.store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition-pack/12458669.html/']
+
+    # grey
+    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-with-grey-joy-con-controllers/12245184.html']
+    start_urls = ['http://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-with-grey-joy-con-controllers/12245184.html/']
 
     custom_settings = {
         'FEED_URI' : 'tmp/'+name+'.csv'

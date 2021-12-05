@@ -3,8 +3,14 @@ import scrapy
 
 class NintendoBotSpider(scrapy.Spider):
     name = 'nintendo_bot'
-    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html']
-    start_urls = ['http://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html/']
+    # acnh
+    # allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html']
+    # start_urls = ['http://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-animal-crossing-new-horizons-edition/12458084.html/']
+
+    #neon
+    allowed_domains = ['store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-with-neon-blue-neon-red-joy-con-controllers/12245286.html']
+    start_urls = ['http://store.nintendo.co.uk/nintendo-switch-console/nintendo-switch-with-neon-blue-neon-red-joy-con-controllers/12245286.html/']
+
 
     # TEST URLS FOR IN STOCK ITEMS
     # allowed_domains = ['store.nintendo.co.uk/nintendo-switch-lite-console/nintendo-switch-lite-yellow/12258505.html']
